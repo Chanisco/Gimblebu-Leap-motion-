@@ -1,4 +1,4 @@
-Gimblebu-Leap-motion-
-=====================
+Leap-motion-Gimblebu
+====================
 
-Game made by Chanisco Tromp, Peter dimitrov, Shadé Sidihakis, Coco Nia Dianova, Ingemar Martina en Charleton Mercelina
+Game made by us
