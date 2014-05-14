@@ -6,7 +6,7 @@ public static class Global {
 	public static bool point;
 	public static bool rezise;
 	
-	public static int turnWorld = 1;
+	public static int turnWorld = 0;
  
 
 

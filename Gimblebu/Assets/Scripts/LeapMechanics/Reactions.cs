@@ -38,9 +38,20 @@ public class Reactions : MonoBehaviour {
 						Vector3 MovPosition = new Vector3(MovementX / 50 ,MovementY / 150,0);
 						transform.Translate(0,-1,0);
 						transform.Translate(MovPosition);
-					}else if(Global.turnWorld == 1){
+					}
+					if(Global.turnWorld == 1){
 						Vector3 MovPosition = new Vector3(-MovementY / 150,MovementX / 50,0);
 						transform.Translate(1,0,0);
+						transform.Translate(MovPosition);
+					}
+					if(Global.turnWorld == 2){
+						Vector3 MovPosition = new Vector3(-MovementX / 50,-MovementY / 150,0);
+						transform.Translate(0,1,0);
+						transform.Translate(MovPosition);
+					}
+					if(Global.turnWorld == 3){
+						Vector3 MovPosition = new Vector3(MovementY / 150,-MovementX / 50,0);
+						transform.Translate(-1,0,0);
 						transform.Translate(MovPosition);
 					}
 					

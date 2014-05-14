@@ -6,28 +6,41 @@ public class CameraRotation : MonoBehaviour {
 	private bool isNrTwo = true;
 	private bool isNrThree = false;
 	private bool isNrFour = false;*/
+	float zRotationOne 		= 0;
+	float zRotationTwo 		= 90;
+	float zRotationThree 	= 180;
+	float zRotationFour 	= 270;
 
 	void Start(){
-		transform.Rotate(new Vector3(0,0,90));
+
 	}
 
 	void Update () {
 		Debug.Log(transform.rotation.z);
 		if(Global.turnWorld == 0){
-			turnOne();
-		}else if(Global.turnWorld == 1){
+			TurnOne();
+		}
+		if(Global.turnWorld == 1){
 			TurnTwo();
+		}
+		if(Global.turnWorld == 2){
+			TurnThree();
+		}
+		if(Global.turnWorld == 3){
+			TurnFour();
 		}
 	}
 
-	void turnOne(){
-		if(transform.rotation.z != 0.25f){
-			transform.Rotate(0,0,0.25f);
-		}
+	void TurnOne(){
+		transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, zRotationOne);
 	}
 	void TurnTwo(){
-		if(transform.rotation.z != 90){
-			transform.Rotate(0,0,10);
-		}
+		transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, zRotationTwo);
+	}
+	void TurnThree(){
+		transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, zRotationThree);
+	}
+	void TurnFour(){
+		transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, zRotationFour);
 	}
 }

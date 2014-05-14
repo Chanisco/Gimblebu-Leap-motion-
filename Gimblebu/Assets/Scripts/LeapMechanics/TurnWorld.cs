@@ -34,8 +34,12 @@ public class TurnWorld : MonoBehaviour {
 				canTurn = 0;
 				renderer.material.color = blue;
 				if(nextTurn){
-					Debug.Log("World is turning = " + Global.turnWorld);
-					Global.turnWorld += 1;
+					if(Global.turnWorld != 3){
+						Debug.Log("World is turning = " + Global.turnWorld);
+						Global.turnWorld += 1;
+					}else if(Global.turnWorld == 3){
+						Global.turnWorld = 0;
+					}
 					nextTurn = false;
 				}
 			}
