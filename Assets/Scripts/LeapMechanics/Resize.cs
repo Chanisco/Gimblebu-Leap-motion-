@@ -2,7 +2,7 @@
 using System.Collections;
 using Leap;
 
-public class Rezise : MonoBehaviour {
+public class Resize : MonoBehaviour {
 
 	void fingerCheck(Controller ctrl){
 		Frame frame = ctrl.Frame();
