@@ -42,11 +42,14 @@ public class TurnWorld : MonoBehaviour {
 				StopCoroutine("CheckforTurns");
 				colorChoice = 1;
 				if(nextTurn){
-					if(Global.turnWorld != 3){
-						Debug.Log("World is turning = " + Global.turnWorld + " " + turnNr);
-						Global.turnWorld += turnNr;
-					}else if(Global.turnWorld == 3){
-						Global.turnWorld = 0;
+					for(int j = 0;j < turnNr; j--){
+						if(Global.turnWorld != 3){
+							Debug.Log("World is turning = " + Global.turnWorld + " " + turnNr);
+							Global.turnWorld += turnNr;
+						}else if(Global.turnWorld == 3){
+							Global.turnWorld = 0;
+						}
+					
 					}
 					canTurn = 0;
 					turnNr = 0;
