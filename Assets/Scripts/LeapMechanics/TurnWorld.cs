@@ -4,18 +4,22 @@ using System.Collections.Generic;
 using Leap;
 
 public class TurnWorld : MonoBehaviour {
+	//------de kleuren waarin de block gaan veranderen---//
 	Color green 		= new Color(0,10,0);
 	Color blue 			= new Color(0,0,10);
 	Color red 			= new Color(10,0,0);
 	Color yellow 		= new Color(10,10,0);
 	Color lightBlue		= new Color(0,10,10);
 
+	//--floats--//
 	float canTurn 		= 0;
 	float colorChoice 	= 0;
 
+	//--ints---//
 	int turnNr		= 0;
 	int end 		= 0;
 
+	//---bools--//
 	bool nextTurn 		= false;
 	bool routinStart 	= true;
 	
@@ -72,18 +76,15 @@ public class TurnWorld : MonoBehaviour {
 			canTurn += 1;
 			yield return new WaitForSeconds(1);
 			if(canTurn == end){
-				//if(isTurnPos != 3){
 				if(turnNr != 3){
 					nextTurn = true;
 					turnNr += 1;
 					end += 3;
 					colorChoice += 1;
-					Debug.Log("kan ik turnen 2x? = " + turnNr);
 				}else{
 					colorChoice = 2;
 					turnNr = 0;
 					end += 3;
-					Debug.Log("back to one");
 				}
 			}
 		}
