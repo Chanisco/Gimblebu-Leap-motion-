@@ -4,8 +4,8 @@ using Leap;
 
 public class Reactions : MonoBehaviour {
 	public static Controller controller;
-	float SideFieldMin = -25f;
-	float SideFieldMax = 25f;
+	float sideFieldMin = -25f;
+	float sideFieldMax = 25f;
 	FistCheck hndCheck;
 	TurnWorld trnCheck;
 		
@@ -61,18 +61,18 @@ public class Reactions : MonoBehaviour {
 
 		}
 
-		if(transform.position.x < SideFieldMin){
-			transform.position = new Vector3(SideFieldMin,transform.position.y,0);
+		if(transform.position.x < sideFieldMin){
+			transform.position = new Vector3(sideFieldMin,transform.position.y,0);
 		}
-		if(transform.position.x > SideFieldMax){
-			transform.position = new Vector3(SideFieldMax,transform.position.y,0);
+		if(transform.position.x > sideFieldMax){
+			transform.position = new Vector3(sideFieldMax,transform.position.y,0);
 		}
 
-		if(transform.position.y < SideFieldMin){
-			transform.position = new Vector3(transform.position.x,SideFieldMin,0);
+		if(transform.position.y < sideFieldMin){
+			transform.position = new Vector3(transform.position.x,sideFieldMin,0);
 		}
-		if(transform.position.y > SideFieldMax){
-			transform.position = new Vector3(transform.position.x,SideFieldMax,0);
+		if(transform.position.y > sideFieldMax){
+			transform.position = new Vector3(transform.position.x,sideFieldMax,0);
 		}
 	}
 }

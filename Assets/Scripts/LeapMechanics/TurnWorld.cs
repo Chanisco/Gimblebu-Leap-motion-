@@ -14,7 +14,7 @@ public class TurnWorld : MonoBehaviour {
 	float colorChoice 	= 0;
 
 	int turnNr		= 0;
-	int End 		= 0;
+	int end 		= 0;
 
 	bool nextTurn 		= false;
 	bool routinStart 	= true;
@@ -60,27 +60,27 @@ public class TurnWorld : MonoBehaviour {
 	}
 
 	IEnumerator CheckforTurns(){
-		End 	= 3;
+		end 	= 3;
 		canTurn = 0;
 		turnNr	= 0;
-		while(canTurn != End && !routinStart){
+		while(canTurn != end && !routinStart){
 			float isTurnPos = turnNr + Global.turnWorld;
-			Debug.Log("kan ik turnen? = " + turnNr);
+			Debug.Log("kan ik turnen? = " + isTurnPos);
 
 			canTurn += 1;
 			yield return new WaitForSeconds(1);
-			if(canTurn == End){
+			if(canTurn == end){
 				//if(isTurnPos != 3){
 				if(turnNr != 3){
 					nextTurn = true;
 					turnNr += 1;
-					End += 3;
+					end += 3;
 					colorChoice += 1;
 					Debug.Log("kan ik turnen 2x? = " + turnNr);
 				}else{
 					colorChoice = 2;
 					turnNr = 0;
-					End += 3;
+					end += 3;
 					Debug.Log("back to one");
 				}
 			}
