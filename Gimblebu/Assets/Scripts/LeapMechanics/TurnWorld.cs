@@ -9,20 +9,16 @@ public class TurnWorld : MonoBehaviour {
 	Color red 			= new Color(10,0,0);
 	Color yellow 		= new Color(10,10,0);
 	Color lightBlue		= new Color(0,10,10);
-	Color origin;
 
 	float canTurn 		= 0;
 	float colorChoice 	= 0;
 
 	int turnNr		= 0;
+	int End 		= 0;
 
 	bool nextTurn 		= false;
 	bool routinStart 	= true;
-
-	void Awake(){
-		origin = renderer.material.color;
-	}
-
+	
 	public void Turning (Controller ctrl) {
 		Frame frame = ctrl.Frame();
 
@@ -42,17 +38,18 @@ public class TurnWorld : MonoBehaviour {
 				}
 
 			}else{
-				StopCoroutine("CheckforTurns");
 				routinStart = true;
-				canTurn = 0;
+				StopCoroutine("CheckforTurns");
 				colorChoice = 1;
 				if(nextTurn){
 					if(Global.turnWorld != 3){
-						Debug.Log("World is turning = " + Global.turnWorld + turnNr);
+						Debug.Log("World is turning = " + Global.turnWorld + " " + turnNr);
 						Global.turnWorld += turnNr;
 					}else if(Global.turnWorld == 3){
 						Global.turnWorld = 0;
 					}
+					canTurn = 0;
+					turnNr = 0;
 					nextTurn = false;
 				}
 			}
@@ -60,25 +57,27 @@ public class TurnWorld : MonoBehaviour {
 	}
 
 	IEnumerator CheckforTurns(){
-		int End 	= 3;
-		int canTurn = 0;
-		turnNr		= 0;
+		End 	= 3;
+		canTurn = 0;
+		turnNr	= 0;
 		while(canTurn != End && !routinStart){
-			//Debug.Log("Nr turn = "+ canTurn);
-			float isTurnPos = turnNr += Global.turnWorld;
+			float isTurnPos = turnNr + Global.turnWorld;
 			Debug.Log("kan ik turnen? = " + turnNr);
 
 			canTurn += 1;
 			yield return new WaitForSeconds(1);
 			if(canTurn == End){
-				if(isTurnPos != 3){
+				//if(isTurnPos != 3){
+				if(turnNr != 3){
 					nextTurn = true;
 					turnNr += 1;
 					End += 3;
 					colorChoice += 1;
+					Debug.Log("kan ik turnen 2x? = " + turnNr);
 				}else{
 					colorChoice = 2;
-					//turnNr = 0;
+					turnNr = 0;
+					End += 3;
 					Debug.Log("back to one");
 				}
 			}

@@ -1,14 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LeapMechanics/TurnWorld.cs">
     <Files>
+      <File FileName="Assets/Scripts/LeapMechanics/Reactions.cs" Line="27" Column="28" />
       <File FileName="Assets/Scripts/LeapMechanics/Rezise.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/CameraScripts/CameraRotation.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Global.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/LeapMechanics/TurnWorld.cs" Line="69" Column="42" />
-      <File FileName="Assets/Scripts/LeapMechanics/Reactions.cs" Line="53" Column="5" />
-      <File FileName="Assets/Scripts/LeapMechanics/Rezise.cs" Line="14" Column="25" />
-      <File FileName="../../Simdayz/Assets/Script/Social Interactions/GuiSocial.cs" Line="2" Column="2" />
+      <File FileName="Assets/Scripts/LeapMechanics/TurnWorld.cs" Line="25" Column="2" />
+      <File FileName="Assets/Scripts/LeapMechanics/Reactions.cs" Line="27" Column="28" />
+      <File FileName="../../Simdayz/Assets/Script/Social Interactions/GuiSocial.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
