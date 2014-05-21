@@ -48,7 +48,7 @@ public class TurnWorld : MonoBehaviour {
 				if(nextTurn){
 					while(turnNr != 0){
 						if(Global.turnWorld != 3){
-							Debug.Log("World is turning = " + Global.turnWorld + " " + turnNr);
+	//						Debug.Log("World is turning = " + Global.turnWorld + " " + turnNr);
 							Global.turnWorld += 1;
 							turnNr -= 1;
 						}else if(Global.turnWorld == 3){
