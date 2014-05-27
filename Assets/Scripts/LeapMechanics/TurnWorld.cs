@@ -27,11 +27,12 @@ public class TurnWorld : MonoBehaviour {
 	bool tempTurn		= true;
 	
 	public void Turning (Controller ctrl) {
-			Frame nowFrame = ctrl.Frame();
-			float roll = nowFrame.Hands[0].PalmNormal.Roll;
-			float rollRound = Mathf.Round(roll * 10);
+		Frame nowFrame = ctrl.Frame();
+		float roll = nowFrame.Hands[0].PalmNormal.Roll;
+		float rollRound = Mathf.Round(roll * 10);
+		Debug.Log(rollRound);
 
-			if(rollRound < -20){
+			if(rollRound < -18 || rollRound == 31){
 				turnWorldCount += turnWorld;
 				Global.turnWorld += turnWorld;
 				tempTurn = true;
