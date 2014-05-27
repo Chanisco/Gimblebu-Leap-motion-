@@ -16,8 +16,7 @@ public class Reactions : MonoBehaviour {
 		trnCheck = (TurnWorld)GetComponent<TurnWorld>();
 		rszCheck = (Resize)GetComponent<Resize>();
 	}
-	
-	// Update is called once per frame
+
 	void Update () {
 		float sideFieldMinX = 	-25f 	- Player.transform.position.x;
 		float sideFieldMaxX = 	25f 	+ Player.transform.position.x;
@@ -32,7 +31,7 @@ public class Reactions : MonoBehaviour {
 
 
 		HandList h = frame.Hands;
-		rszCheck.fingerCheck(controller);
+		//rszCheck.fingerCheck(controller);
 		hndCheck.HandCheck(controller);
 		trnCheck.Turning(controller);
 
