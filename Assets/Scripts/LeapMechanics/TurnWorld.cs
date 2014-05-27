@@ -12,8 +12,10 @@ public class TurnWorld : MonoBehaviour {
 	Color lightBlue		= new Color(0,10,10);
 
 	//--floats--//
-	float canTurn 		= 0;
-	float colorChoice 	= 0;
+	float canTurn 			= 0;
+	float colorChoice 		= 0;
+	float turnWorldCount 	= 0;
+	float turnWorld 		= 0.014f;
 
 	//--ints---//
 	int turnNr		= 0;
@@ -22,6 +24,7 @@ public class TurnWorld : MonoBehaviour {
 	//---bools--//
 	bool nextTurn 		= false;
 	bool routinStart 	= true;
+	bool tempTurn		= true;
 	
 	public void Turning (Controller ctrl) {
 		Frame frame = ctrl.Frame();
@@ -35,6 +38,9 @@ public class TurnWorld : MonoBehaviour {
 			float rollRound = Mathf.Round(roll * 10);
 
 			if(rollRound < -20){
+				turnWorldCount += turnWorld;
+				Global.turnWorld += turnWorld;
+				tempTurn = true;
 				if(routinStart){
 					routinStart = false;
 					colorChoice = 2;
@@ -43,18 +49,29 @@ public class TurnWorld : MonoBehaviour {
 
 			}else{
 				routinStart = true;
+				if(tempTurn){
+					Global.turnWorld -= turnWorldCount;
+					tempTurn = false;
+					Debug.Log("Yeah");
+				}
 				StopCoroutine("CheckforTurns");
 				colorChoice = 1;
 				if(nextTurn){
+					turnWorldCount = 0;
+					Debug.Log(Global.turnWorld);
 					while(turnNr != 0){
 						if(Global.turnWorld != 3){
-	//						Debug.Log("World is turning = " + Global.turnWorld + " " + turnNr);
+							Global.turnWorld = Mathf.Round(Global.turnWorld);
 							Global.turnWorld += 1;
 							turnNr -= 1;
+
 						}else if(Global.turnWorld == 3){
 							Global.turnWorld = 0;
 							turnNr -= 1;
+
 						}
+						Debug.Log(Global.turnWorld);
+
 					
 					}
 					canTurn = 0;
@@ -66,7 +83,7 @@ public class TurnWorld : MonoBehaviour {
 	}
 
 	IEnumerator CheckforTurns(){
-		end 	= 3;
+		end 	= 1;
 		canTurn = 0;
 		turnNr	= 0;
 		while(canTurn != end && !routinStart){
@@ -79,7 +96,7 @@ public class TurnWorld : MonoBehaviour {
 				if(turnNr != 3){
 					nextTurn = true;
 					turnNr += 1;
-					end += 3;
+					end += 1;
 					colorChoice += 1;
 				}else{
 					colorChoice = 2;

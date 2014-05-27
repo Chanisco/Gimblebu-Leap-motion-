@@ -1,0 +1,495 @@
+fileFormatVersion: 2
+guid: 8922746f7b39f40c2b345ba62d3a8991
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Kip_fladder_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3816
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_1
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 3816
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_2
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 3816
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_3
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 3816
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_4
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 3816
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3392
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_6
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 3392
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_7
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 3392
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_8
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 3392
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_9
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 3392
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2968
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_11
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 2968
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_12
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 2968
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_13
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 2968
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_14
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 2968
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2544
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_16
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 2544
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_17
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 2544
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_18
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 2544
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_19
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 2544
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2120
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_21
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 2120
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_22
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 2120
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_23
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 2120
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_24
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 2120
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1696
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_26
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1696
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_27
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 1696
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_28
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 1696
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_29
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 1696
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1272
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_31
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1272
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_32
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 1272
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_33
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 1272
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_34
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 1272
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 848
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_36
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 848
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_37
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 848
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_38
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 848
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_39
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 848
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 424
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_41
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 424
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_42
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 424
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_43
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 424
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_44
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 424
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_46
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 0
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_47
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 0
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_48
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 0
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_fladder_49
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 0
+        width: 379
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
