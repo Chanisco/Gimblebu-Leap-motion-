@@ -1,0 +1,333 @@
+fileFormatVersion: 2
+guid: 8180025686d8648e7a8ba48b17a863db
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bug_walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1610
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1610
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_2
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1610
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_3
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1610
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1380
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_5
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1380
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_6
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1380
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_7
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1380
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1150
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_9
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1150
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_10
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1150
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_11
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1150
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 920
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_13
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 920
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_14
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 920
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_15
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 920
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 690
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_17
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 690
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_18
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 690
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_19
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 690
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 460
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_21
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 460
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_22
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 460
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_23
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 460
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_25
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 230
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_26
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 230
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_27
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 230
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_29
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 0
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_30
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 0
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: bug_walk_31
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 0
+        width: 305
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

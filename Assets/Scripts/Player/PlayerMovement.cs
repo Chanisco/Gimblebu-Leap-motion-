@@ -7,7 +7,12 @@ public class PlayerMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(standingOnPlane){
-			if(Global.turnWorld == 0){
+			if(Input.GetKey(KeyCode.A)){
+				transform.Translate(-10 * Time.deltaTime	,0,0);
+			}else if(Input.GetKey(KeyCode.D)){
+				transform.Translate(10  * Time.deltaTime,0,0);
+			}
+			/*if(Global.turnWorld == 0){
 				if(Input.GetKey(KeyCode.A)){
 					transform.Translate(-10 * Time.deltaTime	,0,0);
 				}else if(Input.GetKey(KeyCode.D)){
@@ -31,7 +36,7 @@ public class PlayerMovement : MonoBehaviour {
 				}else if(Input.GetKey(KeyCode.D)){
 					transform.Translate(0,-10  * Time.deltaTime,0);
 				}
-			}
+			}*/
 		}
 	}
 
