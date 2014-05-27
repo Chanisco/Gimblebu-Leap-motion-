@@ -42,7 +42,6 @@ public class PlayerMovement : MonoBehaviour {
 
 	void OnCollisionEnter(Collision other) {
 		if(other.collider.tag == "Platform"){
-			Debug.Log("ik sta erop");
 			standingOnPlane = true;
 		}
 	}

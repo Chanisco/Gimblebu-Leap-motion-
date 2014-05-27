@@ -27,12 +27,6 @@ public class TurnWorld : MonoBehaviour {
 	bool tempTurn		= true;
 	
 	public void Turning (Controller ctrl) {
-		Frame frame = ctrl.Frame();
-
-		HandList h = frame.Hands;
-		
-		foreach(Hand hand in h)
-		{
 			Frame nowFrame = ctrl.Frame();
 			float roll = nowFrame.Hands[0].PalmNormal.Roll;
 			float rollRound = Mathf.Round(roll * 10);
@@ -52,7 +46,6 @@ public class TurnWorld : MonoBehaviour {
 				if(tempTurn){
 					Global.turnWorld -= turnWorldCount;
 					tempTurn = false;
-					Debug.Log("Yeah");
 				}
 				StopCoroutine("CheckforTurns");
 				colorChoice = 1;
@@ -78,7 +71,7 @@ public class TurnWorld : MonoBehaviour {
 					turnNr = 0;
 					nextTurn = false;
 				}
-			}
+
 		}
 	}
 

@@ -4,16 +4,10 @@ using Leap;
 
 public class Resize : MonoBehaviour {
 
-	void fingerCheck(Controller ctrl){
+	public void fingerCheck(Controller ctrl){
 		Frame frame = ctrl.Frame();
-		HandList h = frame.Hands;
 
-		foreach(Hand hand in h){
-
-			float frontFinger = frame.Fingers.Frontmost.TouchDistance;
-			Debug.Log(frontFinger);
-
-		}
+		Debug.Log("Hoeveelheid vingers: " + frame.Fingers.Count);
 
 
 	}

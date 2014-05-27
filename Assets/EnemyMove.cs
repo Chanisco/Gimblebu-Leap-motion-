@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class EnemyMove : MonoBehaviour {
-	private float 	speed = 5;
+	private float 	speed = 2;
 	private Vector3 Rotation = new Vector3(0,0,0);
 	// Update is called once per frame
 	void Update () {

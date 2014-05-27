@@ -6,14 +6,15 @@ public class Reactions : MonoBehaviour {
 	public GameObject Player;
 	public static Controller controller;
 
-	FistCheck hndCheck;
-	TurnWorld trnCheck;
+	FistCheck 	hndCheck;
+	TurnWorld 	trnCheck;
+	Resize 		rszCheck;
 		
-		// Use this for initialization
 	void Awake () {
 		controller = new Controller();
 		hndCheck = (FistCheck)GetComponent<FistCheck>();
 		trnCheck = (TurnWorld)GetComponent<TurnWorld>();
+		rszCheck = (Resize)GetComponent<Resize>();
 	}
 	
 	// Update is called once per frame
@@ -22,7 +23,8 @@ public class Reactions : MonoBehaviour {
 		float sideFieldMaxX = 	25f 	+ Player.transform.position.x;
 		float sideFieldMinY = 	-25f 	- Player.transform.position.y;
 		float sideFieldMaxY = 	25f 	+ Player.transform.position.y;
-		//Debug.Log(sideFieldMaxX);
+	
+
 		float MovementY;
 		float MovementX;
 
@@ -30,10 +32,15 @@ public class Reactions : MonoBehaviour {
 
 
 		HandList h = frame.Hands;
+		rszCheck.fingerCheck(controller);
 		hndCheck.HandCheck(controller);
 		trnCheck.Turning(controller);
 
+
 		foreach(Hand hand in h){
+				if(frame.Hands.Count > 1){
+				Debug.Log("PLZ 1 hand");
+			}
 				MovementY = hand.PalmPosition.y;
 				MovementX = hand.PalmPosition.x;
 
