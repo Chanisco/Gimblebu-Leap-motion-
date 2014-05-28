@@ -4,10 +4,11 @@ using System.Collections;
 public class PlayerMovement : MonoBehaviour {
 	bool standingOnPlane;
 	int HeadButCount = 0;
+	bool headbutBool = true;
 	Animator animator;
 
 	void Start(){
-		animator = GetComponent<Animator>;
+		animator = GetComponent<Animator>();
 	}
 
 	// Update is called once per frame
@@ -46,10 +47,15 @@ public class PlayerMovement : MonoBehaviour {
 			}*/
 		}
 		if(Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)){
-			HeadButCount = 50;
+			if(headbutBool = true){
+				HeadButCount = 50;
+				headbutBool = false;
+			}
 		}
 		if(HeadButCount > 3){
 			HeadButCount -= 1;
+		}else{
+			headbutBool = true;
 		}
 
 	}
