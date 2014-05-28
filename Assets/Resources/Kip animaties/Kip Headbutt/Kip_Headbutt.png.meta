@@ -40,6 +40,276 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Kip_Headbutt_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1784
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_1
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1784
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_2
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1784
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_3
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1784
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_4
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 1784
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_5
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 1784
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1338
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_7
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1338
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_8
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1338
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_9
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1338
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_10
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 1338
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_11
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 1338
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 892
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_13
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 892
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_14
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 892
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_15
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 892
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_16
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 892
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_17
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 892
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 446
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_19
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 446
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_20
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 446
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_21
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 446
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_22
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 446
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_23
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 446
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_25
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 0
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_26
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 0
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_27
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 0
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_28
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 0
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Headbutt_29
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 0
+        width: 546
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
   spritePackingTag: 
   userData: 
