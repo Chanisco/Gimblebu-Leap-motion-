@@ -3,13 +3,21 @@ using System.Collections;
 
 public class PlayerMovement : MonoBehaviour {
 	bool standingOnPlane;
+	int HeadButCount = 0;
+	bool headbutBool = true;
+	Animator animator;
+
+	void Start(){
+		animator = GetComponent<Animator>();
+	}
 
 	// Update is called once per frame
 	void Update () {
+		animator.SetInteger("Headbut",HeadButCount);
 		if(standingOnPlane){
-			if(Input.GetKey(KeyCode.A)){
+			if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)){
 				transform.Translate(-10 * Time.deltaTime	,0,0);
-			}else if(Input.GetKey(KeyCode.D)){
+			}else if(Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)){
 				transform.Translate(10  * Time.deltaTime,0,0);
 			}
 			/*if(Global.turnWorld == 0){
@@ -38,6 +46,18 @@ public class PlayerMovement : MonoBehaviour {
 				}
 			}*/
 		}
+		if(Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)){
+			if(headbutBool = true){
+				HeadButCount = 50;
+				headbutBool = false;
+			}
+		}
+		if(HeadButCount > 3){
+			HeadButCount -= 1;
+		}else{
+			headbutBool = true;
+		}
+
 	}
 
 	void OnCollisionEnter(Collision other) {

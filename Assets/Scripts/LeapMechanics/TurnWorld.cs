@@ -32,7 +32,7 @@ public class TurnWorld : MonoBehaviour {
 		float rollRound = Mathf.Round(roll * 10);
 		Debug.Log(rollRound);
 
-			if(rollRound < -18 || rollRound == 31){
+			if(rollRound < -18){
 				turnWorldCount += turnWorld;
 				Global.turnWorld += turnWorld;
 				tempTurn = true;
