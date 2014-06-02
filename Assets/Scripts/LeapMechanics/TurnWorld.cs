@@ -30,12 +30,14 @@ public class TurnWorld : MonoBehaviour {
 		Frame nowFrame = ctrl.Frame();
 		float roll = nowFrame.Hands[0].PalmNormal.Roll;
 		float rollRound = Mathf.Round(roll * 10);
-		Debug.Log(rollRound);
+
+		Debug.Log(Global.turnWorld);
 
 			if(rollRound < -18){
 				tempTurn = true;
 				Global.turnWorld += turnWorld;
 				turnWorldCount += turnWorld;
+
 				if(routinStart){
 					routinStart = false;
 					colorChoice = 2;
@@ -44,28 +46,25 @@ public class TurnWorld : MonoBehaviour {
 
 			}else{
 				routinStart = true;
+				StopCoroutine("CheckforTurns");
 				if(tempTurn){
 					Global.turnWorld -= turnWorldCount;
+					turnWorldCount = 0;
 					tempTurn = false;
 				}
-				StopCoroutine("CheckforTurns");
 				colorChoice = 1;
 				if(nextTurn){
-					turnWorldCount = 0;
-					Debug.Log(Global.turnWorld);
 					while(turnNr != 0){
 						if(Global.turnWorld != 3){
 							Global.turnWorld = Mathf.Round(Global.turnWorld);
 							Global.turnWorld += 1;
 							turnNr -= 1;
 
-						}else if(Global.turnWorld == 3){
+						}else if(Global.turnWorld < 3){
 							Global.turnWorld = 0;
 							turnNr -= 1;
 
 						}
-						Debug.Log(Global.turnWorld);
-
 					
 					}
 					canTurn = 0;
@@ -81,11 +80,9 @@ public class TurnWorld : MonoBehaviour {
 		canTurn = 0;
 		turnNr	= 0;
 		while(canTurn != end && !routinStart){
-			float isTurnPos = turnNr + Global.turnWorld;
-			Debug.Log("kan ik turnen? = " + isTurnPos);
-
 			canTurn += 1;
 			yield return new WaitForSeconds(1);
+
 			if(canTurn == end){
 				if(turnNr != 3){
 					nextTurn = true;
@@ -97,7 +94,9 @@ public class TurnWorld : MonoBehaviour {
 					turnNr = 0;
 					end += 3;
 				}
+
 			}
+
 		}
 	}
 

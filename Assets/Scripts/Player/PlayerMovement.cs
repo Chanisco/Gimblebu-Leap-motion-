@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour {
 			}*/
 		}
 		if(Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)){
-			if(headbutBool = true){
+			if(headbutBool){
 				HeadButCount = 50;
 				headbutBool = false;
 			}
