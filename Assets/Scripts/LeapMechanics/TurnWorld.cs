@@ -33,9 +33,9 @@ public class TurnWorld : MonoBehaviour {
 		Debug.Log(rollRound);
 
 			if(rollRound < -18){
-				turnWorldCount += turnWorld;
-				Global.turnWorld += turnWorld;
 				tempTurn = true;
+				Global.turnWorld += turnWorld;
+				turnWorldCount += turnWorld;
 				if(routinStart){
 					routinStart = false;
 					colorChoice = 2;
