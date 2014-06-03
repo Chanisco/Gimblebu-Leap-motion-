@@ -30,8 +30,9 @@ public class TurnWorld : MonoBehaviour {
 		Frame nowFrame = ctrl.Frame();
 		float roll = nowFrame.Hands[0].PalmNormal.Roll;
 		float rollRound = Mathf.Round(roll * 10);
+		float turnWoldRound = Mathf.Round(Global.turnWorld);
 
-		Debug.Log(Global.turnWorld);
+	//	Debug.Log(Global.turnWorld);
 
 			if(rollRound < -18){
 				tempTurn = true;
@@ -55,12 +56,12 @@ public class TurnWorld : MonoBehaviour {
 				colorChoice = 1;
 				if(nextTurn){
 					while(turnNr != 0){
-						if(Global.turnWorld != 3){
-							Global.turnWorld = Mathf.Round(Global.turnWorld);
+						if(turnWoldRound < 4){
 							Global.turnWorld += 1;
 							turnNr -= 1;
+							Debug.Log("CHeck Me");
 
-						}else if(Global.turnWorld < 3){
+						}else{
 							Global.turnWorld = 0;
 							turnNr -= 1;
 
