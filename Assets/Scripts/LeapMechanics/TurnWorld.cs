@@ -30,7 +30,7 @@ public class TurnWorld : MonoBehaviour {
 		Frame nowFrame = ctrl.Frame();
 		float roll = nowFrame.Hands[0].PalmNormal.Roll;
 		float rollRound = Mathf.Round(roll * 10);
-		float turnWoldRound = Mathf.Round(Global.turnWorld);
+		float turnWorldRound = Mathf.Round(Global.turnWorld);
 
 		Debug.Log(Global.turnWorld);
 
@@ -48,30 +48,40 @@ public class TurnWorld : MonoBehaviour {
 			}else{
 				routinStart = true;
 				StopCoroutine("CheckforTurns");
-				if(tempTurn){
-					Global.turnWorld -= turnWorldCount;
+	
+				colorChoice = 1;
+				if(nextTurn){
+					if(tempTurn){
+						Global.turnWorld -= turnWorldCount;
+						turnWorldCount = 0;
+						tempTurn = false;
+					}
+					while(turnNr != 0){
+							if(turnWorldRound < 4){
+								Global.turnWorld = Mathf.Round(Global.turnWorld);
+								Global.turnWorld += 1;
+								turnNr -= 1;
+
+							}else{
+								Global.turnWorld = 0;
+								turnNr -= 1;
+
+							}
+						
+						}
+						canTurn = 0;
+						turnNr = 0;
+						nextTurn = false;
+				}else{
+				if(Global.turnWorld != turnWorldRound && tempTurn){
+					Global.turnWorld -= turnWorld;
+
+				}else{
+					Global.turnWorld = turnWorldRound;
 					turnWorldCount = 0;
 					tempTurn = false;
 				}
-				colorChoice = 1;
-				if(nextTurn){
-					while(turnNr != 0){
-						if(turnWoldRound < 4){
-							Global.turnWorld = Mathf.Round(Global.turnWorld);
-							Global.turnWorld += 1;
-							turnNr -= 1;
-
-						}else{
-							Global.turnWorld = 0;
-							turnNr -= 1;
-
-						}
-					
-					}
-					canTurn = 0;
-					turnNr = 0;
-					nextTurn = false;
-				}
+			}
 
 		}
 	}
