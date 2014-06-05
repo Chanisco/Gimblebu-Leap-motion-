@@ -5,6 +5,7 @@ public class PlayerMovement : MonoBehaviour {
 	bool standingOnPlane;
 	int HeadButCount = 0;
 	bool headbutBool = true;
+	AudioClip Tok;
 	Animator animator;
 
 	void Start(){
@@ -48,6 +49,7 @@ public class PlayerMovement : MonoBehaviour {
 		}
 		if(Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)){
 			if(headbutBool){
+				AudioSource.PlayClipAtPoint(Tok, transform.position,10);
 				HeadButCount = 50;
 				headbutBool = false;
 			}

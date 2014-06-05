@@ -34,53 +34,54 @@ public class TurnWorld : MonoBehaviour {
 
 		Debug.Log(Global.turnWorld);
 
-			if(rollRound < -18){
-				tempTurn = true;
-				Global.turnWorld += turnWorld;
-				turnWorldCount += turnWorld;
+		if(rollRound < -18){
+			tempTurn = true;
+			Global.turnWorld += turnWorld;
+			turnWorldCount += turnWorld;
 
-				if(routinStart){
-					routinStart = false;
-					colorChoice = 2;
-					StartCoroutine("CheckforTurns");
+			if(routinStart){
+				routinStart = false;
+				colorChoice = 2;
+				StartCoroutine("CheckforTurns");
+			}
+
+		}else{
+			routinStart = true;
+			StopCoroutine("CheckforTurns");
+
+			colorChoice = 1;
+			if(nextTurn){
+				if(tempTurn){
+					Global.turnWorld -= turnWorldCount;
+					turnWorldCount = 0;
+					tempTurn = false;
 				}
-
-			}else{
-				routinStart = true;
-				StopCoroutine("CheckforTurns");
-	
-				colorChoice = 1;
-				if(nextTurn){
-					if(tempTurn){
-						Global.turnWorld -= turnWorldCount;
-						turnWorldCount = 0;
-						tempTurn = false;
-					}
-					while(turnNr != 0){
-						Global.turnWorld = Mathf.Round(Global.turnWorld);
-						if(turnWorldRound < 4){
-							Global.turnWorld += 1;
-							turnNr -= 1;
-
-						}else{
-							Global.turnWorld = 0;
-							turnNr -= 1;
-
-						}
-					
-					}
-					canTurn = 0;
-					turnNr = 0;
-					nextTurn = false;
-				}else{
-					if(Global.turnWorld > turnWorldRound && tempTurn == true){
-						Global.turnWorld -= turnWorld;
+				if(turnNr != 0){
+					Global.turnWorld = Mathf.Round(Global.turnWorld);
+					if(turnWorldRound <	 4){
+						Global.turnWorld += 1;
+						turnNr -= 1;
 
 					}else{
-						Global.turnWorld = turnWorldRound;
-						turnWorldCount = 0;
-						tempTurn = false;
+						Global.turnWorld = 0;
+						turnNr -= 1;
+
 					}
+				
+				}else{
+				canTurn = 0;
+				turnNr = 0;
+				nextTurn = false;
+				}
+			}else{
+				if(Global.turnWorld > turnWorldRound && tempTurn == true){
+					Global.turnWorld -= turnWorld;
+
+				}else{
+					Global.turnWorld = turnWorldRound;
+					turnWorldCount = 0;
+					tempTurn = false;
+				}
 			}
 
 		}
