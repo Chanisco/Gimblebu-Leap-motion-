@@ -57,30 +57,30 @@ public class TurnWorld : MonoBehaviour {
 						tempTurn = false;
 					}
 					while(turnNr != 0){
-							if(turnWorldRound < 4){
-								Global.turnWorld = Mathf.Round(Global.turnWorld);
-								Global.turnWorld += 1;
-								turnNr -= 1;
+						Global.turnWorld = Mathf.Round(Global.turnWorld);
+						if(turnWorldRound < 4){
+							Global.turnWorld += 1;
+							turnNr -= 1;
 
-							}else{
-								Global.turnWorld = 0;
-								turnNr -= 1;
+						}else{
+							Global.turnWorld = 0;
+							turnNr -= 1;
 
-							}
-						
 						}
-						canTurn = 0;
-						turnNr = 0;
-						nextTurn = false;
+					
+					}
+					canTurn = 0;
+					turnNr = 0;
+					nextTurn = false;
 				}else{
-				if(Global.turnWorld != turnWorldRound && tempTurn){
-					Global.turnWorld -= turnWorld;
+					if(Global.turnWorld > turnWorldRound && tempTurn == true){
+						Global.turnWorld -= turnWorld;
 
-				}else{
-					Global.turnWorld = turnWorldRound;
-					turnWorldCount = 0;
-					tempTurn = false;
-				}
+					}else{
+						Global.turnWorld = turnWorldRound;
+						turnWorldCount = 0;
+						tempTurn = false;
+					}
 			}
 
 		}
