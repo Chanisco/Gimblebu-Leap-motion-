@@ -32,12 +32,9 @@ public class TurnWorld : MonoBehaviour {
 		float rollRound = Mathf.Round(roll * 10);
 		float turnWorldRound = Mathf.Round(Global.turnWorld);
 
-		Debug.Log("GlobalNr = " + Global.turnWorld + "turnNr = " + turnNr + "tempTurnWorld" + turnWorldCount);
-		if(Global.turnWorld > 4){
-			Global.turnWorld = 0;
-		}
+		Debug.Log(Global.turnWorld);
 
-		if(rollRound < -15){
+		if(rollRound < -18){
 			tempTurn = true;
 			Global.turnWorld += turnWorld;
 			turnWorldCount += turnWorld;
@@ -58,14 +55,14 @@ public class TurnWorld : MonoBehaviour {
 					Global.turnWorld -= turnWorldCount;
 					turnWorldCount = 0;
 					tempTurn = false;
-					Global.turnWorld = Mathf.Round(Global.turnWorld);
 				}
 				if(turnNr != 0){
-					if(turnWorldRound != 3){
+					Global.turnWorld = Mathf.Round(Global.turnWorld);
+					if(turnWorldRound <	 4){
 						Global.turnWorld += 1;
 						turnNr -= 1;
 
-					}else if(turnWorldRound == 4){
+					}else{
 						Global.turnWorld = 0;
 						turnNr -= 1;
 
