@@ -20,8 +20,7 @@ public class Reactions : MonoBehaviour {
 	}
 
 	void Update () {
-
-		//rszCheck.fingerCheck(controller);
+		rszCheck.fingerCheck(controller);
 		MsCheck.Mouse(controller);
 		hndCheck.HandCheck(controller);
 		trnCheck.Turning(controller);
