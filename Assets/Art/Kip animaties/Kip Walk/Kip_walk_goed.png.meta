@@ -40,6 +40,321 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Kip_walk_goed_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2064
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_1
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 2064
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_2
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 2064
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_3
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 2064
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_4
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 2064
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_5
+      rect:
+        serializedVersion: 2
+        x: 2505
+        y: 2064
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_6
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 2064
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1548
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_8
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1548
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_9
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1548
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_10
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 1548
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_11
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 1548
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_12
+      rect:
+        serializedVersion: 2
+        x: 2505
+        y: 1548
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_13
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 1548
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1032
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_15
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1032
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_16
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1032
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_17
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 1032
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_18
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 1032
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_19
+      rect:
+        serializedVersion: 2
+        x: 2505
+        y: 1032
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_20
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 1032
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 516
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_22
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 516
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_23
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 516
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_24
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 516
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_25
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 516
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_26
+      rect:
+        serializedVersion: 2
+        x: 2505
+        y: 516
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_27
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 516
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_29
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 0
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_30
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 0
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_31
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 0
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_32
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 0
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_33
+      rect:
+        serializedVersion: 2
+        x: 2505
+        y: 0
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_walk_goed_34
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 0
+        width: 501
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
   spritePackingTag: 
   userData: 

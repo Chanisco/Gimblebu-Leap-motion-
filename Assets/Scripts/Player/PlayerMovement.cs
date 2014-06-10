@@ -3,7 +3,10 @@ using System.Collections;
 
 public class PlayerMovement : MonoBehaviour {
 	bool standingOnPlane;
+
 	int HeadButCount = 0;
+	int walking = 0;
+
 	bool headbutBool = true;
 	AudioClip Tok;
 	Animator animator;
@@ -15,11 +18,16 @@ public class PlayerMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		animator.SetInteger("Headbut",HeadButCount);
+		animator.SetInteger("Walking", walking);
+
 		if(standingOnPlane){
 			if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)){
 				transform.Translate(-10 * Time.deltaTime	,0,0);
-			}else if(Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)){
+			} if(Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)){
+				walking = 1;
 				transform.Translate(10  * Time.deltaTime,0,0);
+			} else {
+				walking = 0;
 			}
 			/*if(Global.turnWorld == 0){
 				if(Input.GetKey(KeyCode.A)){

@@ -40,6 +40,276 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Kip_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1275
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1275
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1275
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1275
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1275
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 1275
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1275
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 1275
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 850
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 850
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 850
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 850
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 850
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 850
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 850
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 850
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 425
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 425
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_18
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 425
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_19
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 425
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_20
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 425
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_21
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 425
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_22
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 425
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_23
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 425
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_25
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 0
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_26
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_27
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 0
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_28
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Kip_Idle_29
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 0
+        width: 375
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
   spritePackingTag: 
   userData: 
