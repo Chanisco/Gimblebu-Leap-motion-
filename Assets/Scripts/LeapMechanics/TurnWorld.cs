@@ -27,12 +27,13 @@ public class TurnWorld : MonoBehaviour {
 	bool tempTurn		= true;
 	
 	public void Turning (Controller ctrl) {
+		ColorChange();
 		Frame nowFrame = ctrl.Frame();
 		float roll = nowFrame.Hands[0].PalmNormal.Roll;
 		float rollRound = Mathf.Round(roll * 10);
 		float turnWorldRound = Mathf.Round(Global.turnWorld);
 
-		Debug.Log("GlobalNr = " + Global.turnWorld + "turnNr = " + turnNr + "tempTurnWorld" + turnWorldCount);
+		//Debug.Log("GlobalNr = " + Global.turnWorld + "turnNr = " + turnNr + "tempTurnWorld" + turnWorldCount);
 		if(Global.turnWorld > 4){
 			Global.turnWorld = 0;
 		}
@@ -115,7 +116,7 @@ public class TurnWorld : MonoBehaviour {
 		}
 	}
 
-	void Update(){
+	void ColorChange(){
 		if(colorChoice == 1){
 			renderer.material.color = blue;
 		}

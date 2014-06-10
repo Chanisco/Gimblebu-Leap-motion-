@@ -25,7 +25,6 @@ public class Reactions : MonoBehaviour {
 		hndCheck.HandCheck(controller);
 		trnCheck.Turning(controller);
 
-
 	
 	}
 }
