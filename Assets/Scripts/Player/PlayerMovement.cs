@@ -71,12 +71,12 @@ public class PlayerMovement : MonoBehaviour {
 	}
 
 	void OnCollisionEnter(Collision other) {
-		if(other.collider.tag == "Platform"){
+		if(other.collider.tag == ConstantsTags.Platform){
 			standingOnPlane = true;
 		}
 	}
 	void OnCollisionExit(Collision other){
-		if(other.collider.tag == "Platform"){
+		if(other.collider.tag == ConstantsTags.Platform){
 			standingOnPlane = false;
 		}
 	}
