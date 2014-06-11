@@ -12,7 +12,7 @@ public class Reactions : MonoBehaviour {
 	MouseMove 	MsCheck;
 		
 	void Awake () {
-		controller = new Controller();
+			controller = new Controller(); 
 		hndCheck 	= (FistCheck)GetComponent<FistCheck>();
 		trnCheck 	= (TurnWorld)GetComponent<TurnWorld>();
 		rszCheck 	= (Resize)GetComponent<Resize>();
