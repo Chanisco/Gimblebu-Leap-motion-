@@ -7,10 +7,10 @@ public class MouseMove : MonoBehaviour {
 	public GameObject Player;
 
 	public void Mouse(Controller ctrl) {
-		float sideFieldMinX = 	-10f 	;//- Player.transform.position.x;
-		float sideFieldMaxX = 	170f 	;//+ Player.transform.position.x;
-		float sideFieldMinY = 	-15f 	;//- Player.transform.position.y;
-		float sideFieldMaxY = 	15f 	;//+ Player.transform.position.y;
+		float sideFieldMinX = 	-24.5f 	;//- Player.transform.position.x;
+		float sideFieldMaxX = 	24.5f	;//+ Player.transform.position.x;
+		float sideFieldMinY = 	-15f	;//- Player.transform.position.y;
+		float sideFieldMaxY = 	15f		;//+ Player.transform.position.y;
 		
 		
 		float MovementY;
