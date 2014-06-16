@@ -8,19 +8,19 @@ public class Reactions : MonoBehaviour {
 
 	FistCheck 	hndCheck;
 	TurnWorld 	trnCheck;
-	Resize 		rszCheck;
+	//Resize 		rszCheck;
 	MouseMove 	MsCheck;
 		
 	void Awake () {
-		controller = new Controller();
+		controller = new Controller(); 
 		hndCheck 	= (FistCheck)GetComponent<FistCheck>();
 		trnCheck 	= (TurnWorld)GetComponent<TurnWorld>();
-		rszCheck 	= (Resize)GetComponent<Resize>();
+		//rszCheck 	= (Resize)GetComponent<Resize>();
 		MsCheck 	= (MouseMove)GetComponent<MouseMove>();
 	}
 
 	void Update () {
-		rszCheck.fingerCheck(controller);
+		//rszCheck.fingerCheck(controller);
 		MsCheck.Mouse(controller);
 		hndCheck.HandCheck(controller);
 		trnCheck.Turning(controller);
