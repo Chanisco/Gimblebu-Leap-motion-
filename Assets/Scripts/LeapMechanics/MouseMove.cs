@@ -5,13 +5,15 @@ using Leap;
 
 public class MouseMove : MonoBehaviour {
 	public GameObject Player;
+	public float sideFieldMinX = 	-24.5f 	;//- Player.transform.position.x;
+	public float sideFieldMaxX = 	24.5f	;//+ Player.transform.position.x;
+	public float sideFieldMinY = 	-15f	;//- Player.transform.position.y;
+	public float sideFieldMaxY = 	15f		;//+ Player.transform.position.y;
+
+	public float PositiveSpeed = 1;
+	public float NegativeSpeed = -1;
 
 	public void Mouse(Controller ctrl) {
-		float sideFieldMinX = 	-24.5f 	;//- Player.transform.position.x;
-		float sideFieldMaxX = 	24.5f	;//+ Player.transform.position.x;
-		float sideFieldMinY = 	-15f	;//- Player.transform.position.y;
-		float sideFieldMaxY = 	15f		;//+ Player.transform.position.y;
-		
 		
 		float MovementY;
 		float MovementX;
@@ -29,26 +31,26 @@ public class MouseMove : MonoBehaviour {
 			
 			if(hand.PalmPosition.z < 0 && !Global.fist){
 				if(Global.turnWorld == 0){
-					Vector3 MovPosition = new Vector3(MovementX / 50 ,MovementY / 150,0);
-					transform.Translate(0,-1,0);
+					Vector3 MovPosition = new Vector3(MovementX / 150 ,MovementY / 250,0);
+					transform.Translate(0,NegativeSpeed,0);
 					transform.Translate(MovPosition);
 				}
 				
 				if(Global.turnWorld == 1){
-					Vector3 MovPosition = new Vector3(-MovementY / 150,MovementX / 50,0);
-					transform.Translate(1,0,0);
+					Vector3 MovPosition = new Vector3(-MovementY / 250,MovementX / 150,0);
+					transform.Translate(PositiveSpeed,0,0);
 					transform.Translate(MovPosition);
 				}
 				
 				if(Global.turnWorld == 2){
-					Vector3 MovPosition = new Vector3(-MovementX / 50,-MovementY / 150,0);
-					transform.Translate(0,1,0);
+					Vector3 MovPosition = new Vector3(-MovementX / 150,-MovementY / 250,0);
+					transform.Translate(0,PositiveSpeed,0);
 					transform.Translate(MovPosition);
 				}
 				
 				if(Global.turnWorld == 3){
-					Vector3 MovPosition = new Vector3(MovementY / 150,-MovementX / 50,0);
-					transform.Translate(-1,0,0);
+					Vector3 MovPosition = new Vector3(MovementY / 250,-MovementX / 150,0);
+					transform.Translate(NegativeSpeed,0,0);
 					transform.Translate(MovPosition);
 				}
 				

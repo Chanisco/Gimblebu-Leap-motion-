@@ -8,6 +8,8 @@ public class PlayerMovement : MonoBehaviour {
 	int walking = 0;
 
 	bool headbutBool = true;
+
+	public float speed;
 	//AudioClip Tok;
 	Animator animator;
 
@@ -22,10 +24,10 @@ public class PlayerMovement : MonoBehaviour {
 
 		if(standingOnPlane){
 			if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)){
-				transform.Translate(-10 * Time.deltaTime	,0,0);
+				transform.Translate(-speed * Time.deltaTime	,0,0);
 			} if(Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)){
 				walking = 1;
-				transform.Translate(10  * Time.deltaTime,0,0);
+				transform.Translate(speed  * Time.deltaTime,0,0);
 			} else {
 				walking = 0;
 			}
