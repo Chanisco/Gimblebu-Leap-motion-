@@ -118,19 +118,19 @@ public class TurnWorld : MonoBehaviour {
 
 	void ColorChange(){
 		if(colorChoice == 1){
-			renderer.material.color = blue;
+			GetComponent<Renderer>().material.color = blue;
 		}
 		if(colorChoice == 2){
-			renderer.material.color = green;
+			GetComponent<Renderer>().material.color = green;
 		}
 		if(colorChoice == 3){
-			renderer.material.color = red;
+			GetComponent<Renderer>().material.color = red;
 		}
 		if(colorChoice == 4){
-			renderer.material.color = yellow;
+			GetComponent<Renderer>().material.color = yellow;
 		}
 		if(colorChoice == 5){
-			renderer.material.color = lightBlue;
+			GetComponent<Renderer>().material.color = lightBlue;
 		}
 	}
 }

@@ -1,6 +1,39 @@
 fileFormatVersion: 2
 guid: 2e2643bca0a604c929b899788fb72cfa
+timeCreated: 1475258993
+licenseType: Free
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: Kip_Idle_0
+    21300002: Kip_Idle_1
+    21300004: Kip_Idle_2
+    21300006: Kip_Idle_3
+    21300008: Kip_Idle_4
+    21300010: Kip_Idle_5
+    21300012: Kip_Idle_6
+    21300014: Kip_Idle_7
+    21300016: Kip_Idle_8
+    21300018: Kip_Idle_9
+    21300020: Kip_Idle_10
+    21300022: Kip_Idle_11
+    21300024: Kip_Idle_12
+    21300026: Kip_Idle_13
+    21300028: Kip_Idle_14
+    21300030: Kip_Idle_15
+    21300032: Kip_Idle_16
+    21300034: Kip_Idle_17
+    21300036: Kip_Idle_18
+    21300038: Kip_Idle_19
+    21300040: Kip_Idle_20
+    21300042: Kip_Idle_21
+    21300044: Kip_Idle_22
+    21300046: Kip_Idle_23
+    21300048: Kip_Idle_24
+    21300050: Kip_Idle_25
+    21300052: Kip_Idle_26
+    21300054: Kip_Idle_27
+    21300056: Kip_Idle_28
+    21300058: Kip_Idle_29
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -14,11 +47,14 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
   generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 1024
@@ -29,37 +65,51 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
+  rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: Kip_Idle_0
+    - serializedVersion: 2
+      name: Kip_Idle_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1275
-        width: 375
-        height: 425
+        y: 1273
+        width: 368
+        height: 427
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_1
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_1
       rect:
         serializedVersion: 2
-        x: 375
+        x: 368
         y: 1275
-        width: 375
+        width: 382
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_2
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_2
       rect:
         serializedVersion: 2
         x: 750
@@ -67,8 +117,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_3
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_3
       rect:
         serializedVersion: 2
         x: 1125
@@ -76,8 +130,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_4
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_4
       rect:
         serializedVersion: 2
         x: 1500
@@ -85,8 +143,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_5
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_5
       rect:
         serializedVersion: 2
         x: 1875
@@ -94,8 +156,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_6
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_6
       rect:
         serializedVersion: 2
         x: 2250
@@ -103,8 +169,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_7
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_7
       rect:
         serializedVersion: 2
         x: 2625
@@ -112,8 +182,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_8
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_8
       rect:
         serializedVersion: 2
         x: 0
@@ -121,8 +195,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_9
       rect:
         serializedVersion: 2
         x: 375
@@ -130,8 +208,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_10
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_10
       rect:
         serializedVersion: 2
         x: 750
@@ -139,8 +221,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_11
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_11
       rect:
         serializedVersion: 2
         x: 1125
@@ -148,8 +234,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_12
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_12
       rect:
         serializedVersion: 2
         x: 1500
@@ -157,8 +247,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_13
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_13
       rect:
         serializedVersion: 2
         x: 1875
@@ -166,8 +260,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_14
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_14
       rect:
         serializedVersion: 2
         x: 2250
@@ -175,8 +273,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_15
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_15
       rect:
         serializedVersion: 2
         x: 2625
@@ -184,8 +286,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_16
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_16
       rect:
         serializedVersion: 2
         x: 0
@@ -193,8 +299,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_17
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_17
       rect:
         serializedVersion: 2
         x: 375
@@ -202,8 +312,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_18
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_18
       rect:
         serializedVersion: 2
         x: 750
@@ -211,8 +325,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_19
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_19
       rect:
         serializedVersion: 2
         x: 1125
@@ -220,8 +338,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_20
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_20
       rect:
         serializedVersion: 2
         x: 1500
@@ -229,8 +351,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_21
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_21
       rect:
         serializedVersion: 2
         x: 1875
@@ -238,8 +364,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_22
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_22
       rect:
         serializedVersion: 2
         x: 2250
@@ -247,8 +377,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_23
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_23
       rect:
         serializedVersion: 2
         x: 2625
@@ -256,8 +390,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_24
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_24
       rect:
         serializedVersion: 2
         x: 0
@@ -265,8 +403,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_25
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_25
       rect:
         serializedVersion: 2
         x: 375
@@ -274,8 +416,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_26
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_26
       rect:
         serializedVersion: 2
         x: 750
@@ -283,8 +429,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_27
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_27
       rect:
         serializedVersion: 2
         x: 1125
@@ -292,8 +442,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_28
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_28
       rect:
         serializedVersion: 2
         x: 1500
@@ -301,8 +455,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: Kip_Idle_29
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Kip_Idle_29
       rect:
         serializedVersion: 2
         x: 1875
@@ -310,6 +468,12 @@ TextureImporter:
         width: 375
         height: 425
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
   spritePackingTag: 
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

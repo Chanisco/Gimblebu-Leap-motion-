@@ -11,7 +11,7 @@ public class EnemyMove : MonoBehaviour {
 
 	}
 	void OnTriggerEnter(Collider other) {
-		if(other.collider.tag == "MoveBack"){
+		if(other.GetComponent<Collider>().tag == "MoveBack"){
 			if(Rotation.y == 0){
 				Rotation = new Vector3(0,180,0);
 
